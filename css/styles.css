@@ -5,10 +5,30 @@ html {
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  background: #FFF8F2;
+  color: #4D480E;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  color: #FFF8F2;
+  background-image: url(../img/header-bg.jpg);
+}
+
+footer {
+  background-image: url(../img/bg-footer.jpg);
+  color: #FFF8F2;
+}
+
+main nav {
+  background-image: url(../img/bg-nav.jpg);
+}
+
+.section-dark {
+  background-image: url(../img/bg-section-dark.jpg);
+  color: #D8D6BA;
 }
