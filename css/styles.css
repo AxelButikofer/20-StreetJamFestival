@@ -18,12 +18,17 @@ img {
 header {
   color: #FFF8F2;
   background-image: url(../img/header-bg.jpg);
+  background-size: cover;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   text-shadow: black 1px 0 7px;
   font-size: 35px;
   text-align: right;
-  margin: 0;
+}
+
+header p {
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -31,6 +36,8 @@ h1 {
   text-align: left;
   font-weight: 400;
   line-height: 50px;
+  margin-top: 45px;
+  margin-bottom: 15px;
 }
 
 h1 span {
