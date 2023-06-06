@@ -7,6 +7,7 @@ body {
   margin: auto;
   background: #FFF8F2;
   color: #4D480E;
+  font-family: 'Archivo', sans-serif;
 }
 
 img {
@@ -17,15 +18,32 @@ img {
 header {
   color: #FFF8F2;
   background-image: url(../img/header-bg.jpg);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-shadow: black 1px 0 7px;
+  font-size: 35px;
+  text-align: right;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+h1 span {
+  font-weight: 700;
+}
+
+main nav {
+  background-image: url(../img/bg-nav.jpg);
 }
 
 footer {
   background-image: url(../img/bg-footer.jpg);
   color: #FFF8F2;
-}
-
-main nav {
-  background-image: url(../img/bg-nav.jpg);
 }
 
 .section-dark {
