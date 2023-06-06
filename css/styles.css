@@ -57,6 +57,13 @@ h2 {
   font-weight: 500;
 }
 
+h3 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
 main {
   padding-left: 15px;
   padding-right: 15px;
@@ -128,7 +135,13 @@ footer {
   margin-bottom: 35px;
 }
 
+.street-food-text {
+  font-size: 15px;
+}
 
+.street-food-line {
+  margin-right: 160px;
+}
 
 .section-dark {
   background-image: url(../img/bg-section-dark.jpg);
