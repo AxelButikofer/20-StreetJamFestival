@@ -82,6 +82,12 @@ main nav {
   top: 0;
 }
 
+hr {
+  border: 1px solid #4D480E;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 a {
   text-decoration: none;
   color: #1E1E1E;
@@ -106,12 +112,23 @@ footer {
   margin-bottom: 60px;
 }
 
+.box-schedule {
+  margin-bottom: 0;
+}
+
+.box-schedule p {
+  margin-bottom: 35px;
+  padding-left: 50px;
+}
+
 .light-italic-block {
   opacity: 0.6;
   font-weight: 300;
   font-size: 15px;
   margin-bottom: 35px;
 }
+
+
 
 .section-dark {
   background-image: url(../img/bg-section-dark.jpg);
