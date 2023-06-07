@@ -129,9 +129,9 @@ footer p {
   margin-bottom: 0;
 }
 
-.box-schedule p {
-  margin-bottom: 35px;
+.box-schedule-text {
   padding-left: 50px;
+  margin-bottom: 35px;
 }
 
 .light-italic-block {
