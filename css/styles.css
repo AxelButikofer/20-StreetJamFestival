@@ -175,12 +175,47 @@ footer p {
 }
 
 .portrait-vertical {
-  margin-left  : auto;
+  margin-left : auto;
+  margin-top : 15px; 
   width: 306px;
 }
 
 .portrait-horizontal {
   width:306px;
+}
+
+.icon-skull {
+  margin: 0;
+  max-width: 12%;
+  position: relative;
+  top: 13px;
+  left: 17px;
+}
+
+.icon-crown {
+  margin: 0;
+  margin-left: auto;
+  max-width: 12%;
+  position: relative;
+  bottom: 20px;
+  right: 17px;
+}
+
+.icon-sun {
+  margin: 0;
+  max-width: 12%;
+  position: relative;
+  left: 15px;
+  bottom: 5px;
+}
+
+.icon-heart {
+  margin: 0;
+  margin-left: auto;
+  max-width: 12%;
+  position: relative;
+  bottom: 28px;
+  right: 17px;
 }
 
 .icon-eye {
