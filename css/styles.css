@@ -82,6 +82,7 @@ main nav {
   border-bottom: 2px solid #1E1E1E;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 hr {
@@ -258,4 +259,8 @@ padding-bottom: 80px;
 .img-margin-right {
   margin-right: auto;
   width: 360px;
+}
+
+.shadow {
+  filter: drop-shadow(0 0 0.10rem black);
 }
