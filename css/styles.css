@@ -149,6 +149,10 @@ footer p {
   margin-right: 160px;
 }
 
+.street-food-line-right-justification {
+  margin-left: 160px;
+}
+
 .section-dark-title {
   text-align: center;
   color: #4D480E;
@@ -205,4 +209,18 @@ padding-bottom: 80px;
 .container {
   display: flex;
   justify-content: space-between;
+}
+
+.right-justification {
+  text-align: right;
+}
+
+.img-margin-left {
+  margin-left: auto;
+  width: 360px;
+}
+
+.img-margin-right {
+  margin-right: auto;
+  width: 360px;
 }
