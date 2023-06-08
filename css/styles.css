@@ -7,7 +7,6 @@ body {
   margin: auto;
   background: #FFF8F2;
   color: #4D480E;
-  font-family: 'Archivo', sans-serif;
 }
 
 img {
@@ -21,26 +20,28 @@ header {
   color: #FFF8F2;
   background-image: url(../img/header-bg.jpg);
   background-size: cover;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400;
   text-shadow: black 1px 0 7px;
-  font-size: 35px;
-  text-align: right;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 header p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 35px;
+  text-align: right;
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 30px;
 }
 
 h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
   font-size: 50px;
   text-align: left;
-  font-weight: 400;
-  line-height: 50px;
+  line-height: 47px;
   padding-top: 45px;
   margin-bottom: 15px;
   margin-top: 0;
@@ -51,22 +52,26 @@ h1 span {
 }
 
 h2 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 40px;
-  font-weight: 500;
 }
 
 h3 {
-  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
   margin-top: 0;
   margin-bottom: 0;
-  font-weight: 400;
 }
 
-main p {
+p {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
   font-size: 17px;
-  font-weight: 500;
   line-height: 20px;
   margin-top: 0;
   margin-bottom: 60px;
@@ -76,7 +81,8 @@ main nav {
   background-image: url(../img/bg-nav.jpg);
   background-size: cover;
   text-align: center;
-  font-weight: 600;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
   font-size: 15px;
   padding: 15px;
   border-bottom: 2px solid #1E1E1E;
@@ -108,12 +114,24 @@ footer {
 }
 
 footer a {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
   color: #FFF8F2;
 }
 
 footer p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.logo-footer {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.logo-footer span {
+  font-weight: 800;
 }
 
 .underline {
@@ -127,18 +145,20 @@ footer p {
 }
 
 .box-schedule {
+  font-weight: 700;
   margin-bottom: 0;
 }
 
 .box-schedule-text {
+  font-weight: 400;
   padding-left: 50px;
   margin-bottom: 35px;
 }
 
 .light-italic-block {
   color: #4d480ea6;
-  font-weight: 300;
   font-size: 15px;
+  font-weight: 300;
   margin-bottom: 35px;
 }
 
@@ -226,8 +246,8 @@ padding-bottom: 80px;
 }
 
 .main-padding {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .banner-graffiti {
@@ -235,8 +255,7 @@ padding-bottom: 80px;
 }
 
 .copyright {
-  font-size: 5px;
-  font-weight: 700;
+  font-size: 9px;
   opacity: 0.6;
   padding-top: 15px;
   text-align: center;
